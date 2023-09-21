@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { DateCalculator } from './types';
 
-
 export function useDateCalculator(initialDays: number = 0): DateCalculator {
   const [today, setToday] = useState<Date | null>(new Date());
   const [tomorrow, setTomorrow] = useState<Date | null>(null);
@@ -67,4 +66,3 @@ export function useDateCalculator(initialDays: number = 0): DateCalculator {
   };
 }
 
-export default useDateCalculator;
