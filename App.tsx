@@ -1,9 +1,9 @@
-import { AuthExample } from './Pages/Auth';
-import { Debounced } from './Pages/Debounce';
+
+import { AsyncStorageExample } from './Pages/Storage';
 
 export default function App() {
   return (
- <Debounced/>
+    <AsyncStorageExample />
   );
 }
 
