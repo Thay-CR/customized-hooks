@@ -1,8 +1,8 @@
-import { PaginatedList } from "./Pages/Pagination";
+import { ClipboardExample } from "./Pages/ClipBoard";
 
 export default function App() {
   return (
-    <PaginatedList />
+    <ClipboardExample />
   );
 }
 
