@@ -1,9 +1,8 @@
-import { NotificationExample } from "./Pages/Notification";
-import {MediaQueryComponent} from "./Pages/MediaQuery";
+import { PreviousComponent } from "./Pages/Previous";
 
 export default function App() {
   return (
-    <MediaQueryComponent />
+    <PreviousComponent />
   );
 }
 
