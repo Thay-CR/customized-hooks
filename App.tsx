@@ -1,9 +1,9 @@
 
-import { AsyncStorageExample } from './Pages/Storage';
+import { MyFormComponent } from "./Pages/Form";
 
 export default function App() {
   return (
-    <AsyncStorageExample />
+    <MyFormComponent />
   );
 }
 
