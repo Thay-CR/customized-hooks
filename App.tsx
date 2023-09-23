@@ -1,8 +1,8 @@
-import { AsyncComponent } from "./Pages/Async";
+import { ThemeComponent } from "./Pages/Theme";
 
 export default function App() {
   return (
-    <AsyncComponent />
+    <ThemeComponent />
   );
 }
 
