@@ -1,8 +1,8 @@
-import { ThemeComponent } from "./Pages/Theme";
+import { NetworkStatusComponent } from "./Pages/NetworkStatus";
 
 export default function App() {
   return (
-    <ThemeComponent />
+    <NetworkStatusComponent />
   );
 }
 
