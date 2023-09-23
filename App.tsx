@@ -1,9 +1,8 @@
-
-import { MyFormComponent } from "./Pages/Form";
+import { AsyncComponent } from "./Pages/Async";
 
 export default function App() {
   return (
-    <MyFormComponent />
+    <AsyncComponent />
   );
 }
 
