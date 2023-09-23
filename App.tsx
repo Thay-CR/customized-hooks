@@ -1,8 +1,8 @@
-import { NetworkStatusComponent } from "./Pages/NetworkStatus";
+import { GeolocationComponent } from "./Pages/Geolocation";
 
 export default function App() {
   return (
-    <NetworkStatusComponent />
+    <GeolocationComponent />
   );
 }
 
