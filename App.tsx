@@ -1,8 +1,8 @@
-import { ClipboardExample } from "./Pages/ClipBoard";
+import { NotificationExample } from "./Pages/Notification";
 
 export default function App() {
   return (
-    <ClipboardExample />
+    <NotificationExample />
   );
 }
 

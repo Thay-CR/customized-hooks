@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { View, Text, Button, TextInput } from 'react-native';
-import { useClipboard } from '../hooks/clipBoard/clipBoard'; // Certifique-se de importar o hook corretamente
+import { useClipboard } from '../hooks/clipBoard/clipBoard'; 
 
 export  function ClipboardExample() {
   const { copiedText, copyToClipboard, clearClipboard } = useClipboard();
-  const [textToCopy, setTextToCopy] = React.useState('');
+  const [textToCopy, setTextToCopy] = useState<string>('');
 
   const handleCopy = () => {
     copyToClipboard(textToCopy);
