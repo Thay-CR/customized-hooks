@@ -1,30 +1,5 @@
-import { useState, ChangeEvent } from 'react';
-
-interface FormValues {
-  [key: string]: string;
-}
-
-interface ValidationRule {
-  required?: boolean;
-  minlength?: number;
-  pattern?: RegExp;
-}
-
-type ValidationRules = {
-  [key: string]: ValidationRule;
-};
-
-interface FormErrors {
-  [key: string]: string;
-}
-
-interface FormHook {
-  formValues: FormValues;
-  errors: FormErrors;
-  isSubmitting: boolean;
-  handleChange: (name: string, value: string) => void;
-  handleSubmit: () => void;
-}
+import { useState } from 'react';
+import { ValidationRules, FormHook, FormValues, FormErrors  } from './types';
 
 export const useForm = (
   initialValues: FormValues,
