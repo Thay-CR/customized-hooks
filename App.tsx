@@ -1,8 +1,8 @@
-import { GeolocationComponent } from "./Pages/Geolocation";
+import { PaginatedList } from "./Pages/Pagination";
 
 export default function App() {
   return (
-    <GeolocationComponent />
+    <PaginatedList />
   );
 }
 
